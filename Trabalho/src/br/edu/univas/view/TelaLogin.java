@@ -66,7 +66,7 @@ public class TelaLogin extends JFrame {
 		enterButton.setText("Entrar");
 		gbc.gridx = 0;
 		gbc.gridy = 2;
-		gbc.gridwidth = 2;
+		gbc.gridwidth = 0;
 		gbc.weightx = 0.0;
 		gbc.anchor = GridBagConstraints.CENTER;
 		gbc.fill = GridBagConstraints.NONE;
@@ -86,6 +86,8 @@ public class TelaLogin extends JFrame {
 		});
 
 		contentPane.add(enterButton, gbc);
+		
+		
 
 	}
 

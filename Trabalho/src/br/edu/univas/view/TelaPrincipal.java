@@ -60,7 +60,7 @@ public class TelaPrincipal extends JFrame {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				Cadastro1 telacad = new Cadastro1();
+				CadastroFisico telacad = new CadastroFisico();
 				telacad.setVisible(true);
 			}
 		});
